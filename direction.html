@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SC DYNAMITE</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,500;0,700;0,800;1,800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <section class="header">
+            <a href="./index.html"><img src="./assets/img/logo.png" alt=""></a>
+            <nav class="header_nav">
+                <ul>
+                    <li><a href="./direction.html">Направления</a></li>
+                    <li><a href="./membership.html">Абонемент</a></li>
+                    <li><a href="./contact.html">Контакты</a></li>
+                    <li><a href="./calc.html">Индивидуальная программа</a></li>
+                </ul>
+            </nav>
+        </section>
+    </header>
+
+    <section class="direction">
+        <div class="direction_grad">
+           <div class="container">
+                <div class="direction-title">
+                    <h1>Направления работы клуба</h1>
+                    <h2>Наша команда профессиональных тренеров и разнообразные направленияvпомогут вам достичь ваших целей и повысить уровень физической формы. Не откладывайте свои мечты на потом - начните сегодня и <span>обретите здоровье, энергию и уверенность в себе!</span></h2>
+                </div>
+                <div class="direction_content">
+                    
+                    <div class="direction_content-tab">
+                        <button class="tablinks" onclick="openCity(event, '1')" id="defaultOpen">Тренажерный зал</button>
+                        <button class="tablinks" onclick="openCity(event, '2')">Аэробика</button>
+                        <button class="tablinks" onclick="openCity(event, '3')">Йога</button>
+                        <button class="tablinks" onclick="openCity(event, '4')">Массаж</button>
+                        <button class="tablinks" onclick="openCity(event, '5')">Танцы</button>
+                        <button class="tablinks" onclick="openCity(event, '6')">Cycle</button>
+                        <button class="tablinks" onclick="openCity(event, '7')">Персональный <br>тренинг</button>
+                        <button class="tablinks" onclick="openCity(event, '8')">Работа с детьми</button>
+                        <button class="tablinks" onclick="openCity(event, '9')">CrossFit</button>
+
+                      </div>
+                      
+                      <div id="1" class="direction_content-tabcontent">
+                        <h2>Тренажерный зал</h2>
+                        <p>
+                            Тренажерный зал оснащен всем необходимым оборудованием для качественного тренинга. Большой выбор тренажеров, гантельные ряды, зона свободных весов, а так же необходимый вспомогательный инвентарь - лямки, атлетические пояса и прочее, позволят вам проводить свои тренировки качественно.
+                        </p>
+                        <img src="./assets/img/direction/1.jpeg" alt="">
+                      </div>
+
+                      <div id="2" class="direction_content-tabcontent">
+                        <h2>Аэробика</h2>
+                        <p>
+                            В основу аэробики ложатся сочетания упражнений , которые способствую развитию силы, выносливости, гибкости. Тренировка проходит как правила под музыку, соблюдая определенный ритм или счет, так же на усмотрение тренера в тренировке используют дополнительное оборудование - бодибары, степ-платформы, гантели, утяжелители и прочий инвентарь.
+                        </p>
+                        <img src="./assets/img/direction/2.jpeg" alt="">
+                      </div>
+
+                      <div id="3" class="direction_content-tabcontent">
+                        <h2>Йога</h2>
+                        <p>
+                            Cамый духовный и осознанный вид тренировок который заключает в себе полное владение своим телом и контроль разума. йога поможет вам стать чуточку увереннее в себе и в своих мыслях.
+                        </p>
+                        <img src="./assets/img/direction/3.jpeg" alt="">
+                      </div>
+
+                      <div id="4" class="direction_content-tabcontent">
+                        <h2>Массаж</h2>
+                        <p>
+                            Массажный кабинет в фитнес-клубе Gym Uban оснащен необходимым оборудованием для проведения оздоровительных процедур, которые позволят вам поддержать эффект от тренировок.
+                        </p>
+                        <img src="./assets/img/direction/4.jpeg" alt="">
+                      </div>
+
+                      <div id="5" class="direction_content-tabcontent">
+                        <h2>Танцы</h2>
+                        <p>
+                            В нашем клубе продолжает развивать свою деятельность клуб спортивного и современного танца Jump Around, руководителями которого являются Екатерина Лобода и Никита Коверин, ребята предлагают занятия для детей и взрослых как с подготовкой, так и без.
+                        </p>
+                        <p>
+                            Коллектив Panda Dance во главе с хореографом Дарьей, которая обучает контемпу.
+                        </p>
+                        <p>
+                            Хореограф Анжелика - преподает самую женственную хореографию - High Heels и учит быть девушек уверенными в себе
+                        </p>
+                        <img src="./assets/img/direction/5.jpeg" alt="">
+                      </div>
+
+                      <div id="6" class="direction_content-tabcontent">
+                        <h2>Cycle</h2>
+                        <p>
+                            Направление высокоинтенсивного фитнеса, при котором занятие проходит на стационарных велосипедах — спин байках. Является мощной и энергичной кардиотренировкой.
+                        </p>
+                        <img src="./assets/img/direction/6.webp" alt="">
+                      </div>
+
+                      <div id="7" class="direction_content-tabcontent">
+                        <h2>Персональный тренинг</h2>
+                        <h3>ЛУЧШИЙ ПУТЬ К СОВЕРШЕНСТВУ</h3>
+                        <p>
+                            Персональные тренировки – это самый быстрый, эффективный и безопасный путь к достижению поставленных фитнес-целей. Индивидуальная программа здоровья под наблюдением коуча учитывает особенности организма и раскрывает все возможности тела, что в итоге дает принципиально новое понимание себя и поддерживает мотивацию к постоянному совершенствованию.
+                        </p>
+                        <img src="./assets/img/direction/7.webp" alt="">
+                      </div>
+
+                      <div id="8" class="direction_content-tabcontent">
+                        <h2>Работа с детьми</h2>
+                        <p>
+                            Уникальная система занятий, разработанная экспертами детских программ специально для юных членов клуба. Методика учитывает возрастные особенности детей и направлена на гармоничное и всестороннее развитие.
+                        </p>
+                        <img src="./assets/img/direction/8.jpeg" alt="">
+                      </div>
+
+                      <div id="9" class="direction_content-tabcontent">
+                        <h2>CrossFit</h2>
+                        <p>
+                            Кроссфит можно описать как программу тренировок, состоящую из «постоянно варьирующихся функциональных упражнений высокой интенсивности». Цель методики формулируется как физическое развитие человека по таким направлениям как выносливость, сила, гибкость, скорость, координация, точность, а также улучшение.
+                        </p>
+                        <img src="./assets/img/direction/9.jpeg" alt="">
+                      </div>                      
+                </div>
+           </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer">
+            <div class="container">
+                <div class="footer_content">
+                    <div class="footer_content_info">
+                        <img class="footer_content_info-logo" src="./assets/img/logo.png" alt="">
+                        <a href="tel:+79494139492" class="footer_content_info-num">+7 (949) 413-94-92</a>
+                        <div class="footer_content_info-social">
+                            <img src="./assets/img/social/tg.png" alt="">
+                            <img src="./assets/img/social/gm.png" alt="">
+                            <img src="./assets/img/social/inst.png" alt="">
+                        </div>
+                    </div>
+                    <div class="footer_content_nav">
+                        <a href="./direction.html">Направления</a>
+                        <a href="./membership.html">Абонемент</a>
+                        <a href="./contact.html">Контакты</a>
+                        <a href="./calc.html">Индивидуальная<br>программа</a>
+                    </div>
+                    <img src="./assets/img/main-page/gant.png" alt="">
+                </div>
+            </div>            
+        </div>
+    </footer>
+
+    <script src="./scripts/direction.js"></script>   
+
+</body>
+</html>

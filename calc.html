@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SC DYNAMITE</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,500;0,700;0,800;1,800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <section class="header">
+            <a href="./index.html"><img src="./assets/img/logo.png" alt=""></a>
+            <nav class="header_nav">
+                <ul>
+                    <li><a href="./direction.html">Направления</a></li>
+                    <li><a href="./membership.html">Абонемент</a></li>
+                    <li><a href="./contact.html">Контакты</a></li>
+                    <li><a href="./calc.html">Индивидуальная программа</a></li>
+                </ul>
+            </nav>
+        </section>
+    </header>
+
+    <section class="about">
+        <div class="about_grad">
+           <div class="container">
+                <div class="about_content">
+                    <h1 class="calc_h">Составьте индивидуальную программу</h1>
+                    <p class="calc_p">Здесь вы сможете подобрать себе индивидуальный комплекс упражнений в тренажёрном зале или дома.
+                        Как тренер и спортсмен, хочу предупредить, что информация, которую даст эта программа, носит лишь <span>рекомендательный характер</span>. И никакой калькулятор никогда не заменит живого тренера.</p>
+                </div>
+                <!-- <div class="about_arrow"><img src="./assets/img/main-page/gant.png" style="height: 80px;" alt=""></div> -->
+           </div>
+        </div>
+    </section>
+
+    <section class="calc">
+        <div class="container">
+
+            <!-- <div class="direction-title">
+                <h1>Составьте индивидуальную программу</h1>
+            </div> -->
+
+            <div class="calc_wrap">
+                <form class="calc_wrap_content">
+                    <input type="number" id="height" name="height" placeholder="Рост (см)" required>
+    
+                    <input type="number" id="weight" name="weight" placeholder="Вес (кг)" required>
+    
+                    <input type="number" id="age" name="age" placeholder="Возраст" required>
+    
+                    <select id="gender" name="gender">
+                        <option value="1">Мужской</option>
+                        <option value="2">Женский</option>
+                    </select>
+    
+                    <select id="desired_load" name="desired_load">
+                        <option value="1">Новичок</option>
+                        <option value="2">Тренируюсь несколько месяцев</option>
+                        <option value="2">Тренируюсь долго</option>
+                        <option value="3">Тренируюсь долго, но был перерыв</option>
+                    </select>
+    
+                    <select id="level" name="level">
+                        <option value="1.2">Минимальный (сидячая работа)</option>
+                        <option value="1.38">Средний (много хожу или езжу)</option>
+                        <option value="1.56">Повышенный (в основном физический труд)ю</option>
+                        <option value="1.73">Высокий (тяжелый физический труд)</option>
+                        <option value="1.95">Предельный (гружу вагоны круглые сутки)</option>
+                    </select>
+    
+                    <select id="training_amount" name="training_amount">
+                        <option value="1">1 тренировка в неделю</option>
+                        <option value="2">2 тренировки в неделю</option>
+                        <option value="3">3 тренировки в неделю</option>
+                        <option value="4">4 тренировки в неделю</option>
+                        <option value="5">5 тренировки в неделю</option>
+                    </select>
+    
+                    <select id="experience" name="experience">
+                        <option value="1">Никогда не занимался(лась) спортом</option>
+                        <option value="1">Занимался(лась) раньше спортом</option>
+                        <option value="1">Занимаюсь спортом сейчас</option>
+                    </select>
+    
+                    <select id="cel" name="cel" >
+                        <option value="2">Похудеть</option>
+                        <option value="1">Рельеф: без изменения веса</option>
+                        <option value="3">Мышечная масса и сила</option>
+                        <option value="2">Только сила без массы</option>
+                    </select>
+    
+                    <select id="tip" name="tip">
+                        <option value="1">Только силовые упражнения</option>
+                        <option value="2">Силовые + кардио: раздельно</option>
+                        <option value="3">Силовые + кардио: комбинировано</option>
+                    </select>
+    
+                    <select id="telo" name="telo">
+                        <option value="1">Телосложение худое</option>
+                        <option value="2">Телосложение среднее</option>
+                        <option value="3">Телосложение мускулистое</option>
+                        <option value="2">Телосложение полное</option>
+                        <option value="1">Телосложение очень полное</option>
+                    </select>
+    
+                    <select id="davlenie" name="davlenie">
+                        <option value="2">Давление нормальное</option>
+                        <option value="1">Давление пониженное</option>
+                        <option value="1">Давление повышенное</option>
+                    </select>
+    
+                    <button type="submit">Рассчитать программу</button>
+                </form>
+
+                <div class="calc_wrap_line"></div>
+    
+                <div class="calc_wrap_program" id='org_div1'>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer">
+            <div class="container">
+                <div class="footer_content">
+                    <div class="footer_content_info">
+                        <img class="footer_content_info-logo" src="./assets/img/logo.png" alt="">
+                        <a href="tel:+79494139492" class="footer_content_info-num">+7 (949) 413-94-92</a>
+                        <div class="footer_content_info-social">
+                            <img src="./assets/img/social/tg.png" alt="">
+                            <img src="./assets/img/social/gm.png" alt="">
+                            <img src="./assets/img/social/inst.png" alt="">
+                        </div>
+                    </div>
+                    <div class="footer_content_nav">
+                        <a href="./direction.html">Направления</a>
+                        <a href="./membership.html">Абонемент</a>
+                        <a href="./contact.html">Контакты</a>
+                        <a href="./calc.html">Индивидуальная<br>программа</a>
+                    </div>
+                    <img src="./assets/img/main-page/gant.png" alt="">
+                </div>
+            </div>            
+        </div>
+
+    </footer>
+
+    <script src="./scripts/calc.js"></script>   
+
+</body>
+</html>

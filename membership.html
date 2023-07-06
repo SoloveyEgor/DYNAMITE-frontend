@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SC DYNAMITE</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,500;0,700;0,800;1,800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <section class="header">
+            <a href="./index.html"><img src="./assets/img/logo.png" alt=""></a>
+            <nav class="header_nav">
+                <ul>
+                    <li><a href="./direction.html">Направления</a></li>
+                    <li><a href="./membership.html">Абонемент</a></li>
+                    <li><a href="./contact.html">Контакты</a></li>
+                    <li><a href="./calc.html">Индивидуальная программа</a></li>
+                </ul>
+            </nav>
+        </section>
+    </header>
+
+    <section class="membership">
+        <div class="membership_grad">
+           <div class="container">
+                <div class="membership_content">
+                    
+                    <div class="membership_content-tab">
+                        <h1>Стоимость АБОНЕМЕНТА</h1>
+                        <div class="membership_content-tab-item">
+                            <button class="tablinks" onclick="openCity(event, '10')" id="defaultOpen">Клубные карты</button>
+                            <button class="tablinks" onclick="openCity(event, '11')">Тренировки</button>
+                            <button class="tablinks" onclick="openCity(event, '12')">Детские карты</button>
+                            <button class="tablinks" onclick="openCity(event, '13')">Секции</button>
+                            <button class="tablinks" onclick="openCity(event, '14')">Скидки</button>    
+                        </div>
+                    </div>
+                      
+                    <div id="10" class="membership_content-tabcontent">
+                        <div class="membership_content-tabcontent-item">
+                            <div class="membership_content-tabcontent-item-header">
+                                Базовые карты
+                            </div>
+
+                            <div class="membership_content-tabcontent-item-pricebox">
+                                <div class="membership_content-tabcontent-item-pricebox-price">
+                                    <p>Разовое посещение</p>
+                                    <p>250</p>
+                                </div>
+                            </div>
+
+                            <div class="membership_content-tabcontent-item-pricebox">
+                                <div class="membership_content-tabcontent-item-pricebox-price">
+                                    <p>4 посещения</p>
+                                    <p>700</p>
+                                </div>
+                            </div>
+
+                            <div class="membership_content-tabcontent-item-pricebox">
+                                <div class="membership_content-tabcontent-item-pricebox-price">
+                                    <p>8 посещений</p>
+                                    <p>1300</p>
+                                </div>
+                            </div>
+
+                            <div class="membership_content-tabcontent-item-pricebox">
+                                <div class="membership_content-tabcontent-item-pricebox-price">
+                                    <p>12 посещений</p>
+                                    <p>1500</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="membership_content-tabcontent-item">
+                            <div class="membership_content-tabcontent-item-header">
+                                Безлимитные карты
+                            </div>
+
+                            <div class="membership_content-tabcontent-item-pricebox">
+                                <div class="membership_content-tabcontent-item-pricebox-price">
+                                    <p>1 месяц ТЗ/АЗ</p>
+                                    <p>1800</p>
+                                </div>
+                                <p>+7 дней заморозка</p>
+                            </div>
+
+                            <div class="membership_content-tabcontent-item-pricebox">
+                                <div class="membership_content-tabcontent-item-pricebox-price">
+                                    <p>1 месяц ТЗ/АЗ </p>
+                                    <p>2200</p>
+                                </div>
+                                <p>+7 дней заморозка</p>
+                            </div>
+
+                            <div class="membership_content-tabcontent-item-pricebox">
+                                <div class="membership_content-tabcontent-item-pricebox-price">
+                                    <p>Безлимит 3 месяца</p>
+                                    <p>5000</p>
+                                </div>
+                                <p>+14 дней заморозка</p>
+                            </div>
+
+                            <div class="membership_content-tabcontent-item-pricebox">
+                                <div class="membership_content-tabcontent-item-pricebox-price">
+                                    <p>Безлимит 6 месяца</p>
+                                    <p>9500</p>
+                                </div>
+                                <p>+21 дней заморозка</p>
+                            </div>
+
+                            <div class="membership_content-tabcontent-item-pricebox">
+                                <div class="membership_content-tabcontent-item-pricebox-price">
+                                    <p>Безлимит 12 месяца</p>
+                                    <p>14000</p>
+                                </div>
+                                <p>+28 дней заморозка</p>
+                            </div>
+                        </div>
+
+                        <div class="membership_content-tabcontent-item">
+                            <div class="membership_content-tabcontent-item-header">
+                                Специальные карты
+                            </div>
+
+                            <div class="membership_content-tabcontent-item-pricebox">
+                                <div class="membership_content-tabcontent-item-pricebox-price">
+                                    <p>Студенческий безлимит</p>
+                                    <p>1300</p>
+                                </div>
+                                <p>на 1 месяц + 7 дней заморозка</p>
+                            </div>
+
+                            <div class="membership_content-tabcontent-item-pricebox">
+                                <div class="membership_content-tabcontent-item-pricebox-price">
+                                    <p>Карта 50+</p>
+                                    <p>-25%</p>
+                                </div>
+                            </div>
+
+                            <div class="membership_content-tabcontent-item-pricebox">
+                                <div class="membership_content-tabcontent-item-pricebox-price">
+                                    <p>Дневная c 07:00 до 16:00</p>
+                                    <p>1300</p>
+                                </div>
+                            </div>
+
+                            <div class="membership_content-tabcontent-item-pricebox">
+                                <div class="membership_content-tabcontent-item-pricebox-price">
+                                    <p>Выходные дни Сб, Вс</p>
+                                    <p>1000</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>   
+                    
+                    <div id="11" class="membership_content-tabcontent">
+                        <div class="membership_content-tabcontent-item">
+                            <div class="membership_content-tabcontent-item-header">
+                                Персональные тренировки
+                            </div>
+
+                            <div class="membership_content-tabcontent-item-pricebox">
+                                <div class="membership_content-tabcontent-item-pricebox-price">
+                                    <p>Разовая персональная тренировка</p>
+                                    <p>350</p>
+                                </div>
+                            </div>
+
+                            <div class="membership_content-tabcontent-item-pricebox">
+                                <div class="membership_content-tabcontent-item-pricebox-price">
+                                    <p>Разовая персональная тренировка </p>
+                                    <p>550</p>
+                                </div>
+                                <p>+ посещение</p>
+                            </div>
+
+                            <div class="membership_content-tabcontent-item-pricebox">
+                                <div class="membership_content-tabcontent-item-pricebox-price">
+                                    <p>4 персональные тренировки</p>
+                                    <p>1300</p>
+                                </div>
+                                <p>Срок действия 30 дней</p>
+                            </div>
+
+                            <div class="membership_content-tabcontent-item-pricebox">
+                                <div class="membership_content-tabcontent-item-pricebox-price">
+                                    <p>8 персональных тренировок</p>
+                                    <p>2500</p>
+                                </div>
+                                <p>Срок действия 45 дней</p>
+                            </div>
+
+                            <div class="membership_content-tabcontent-item-pricebox">
+                                <div class="membership_content-tabcontent-item-pricebox-price">
+                                    <p>12 персональных тренировок</p>
+                                    <p>3300</p>
+                                </div>
+                                <p>Срок действия 60 дней</p>
+                            </div>
+                        </div>
+
+                        <div class="membership_content-tabcontent-item">
+                            <div class="membership_content-tabcontent-item-header">
+                                Сплит тренировки
+                            </div>
+
+                            <div class="membership_content-tabcontent-item-pricebox">
+                                <div class="membership_content-tabcontent-item-pricebox-price">
+                                    <p>Разовая сплит тренировка</p>
+                                    <p>500</p>
+                                </div>
+                                <p>Тренировка вдвоем</p>
+                            </div>
+
+                            <div class="membership_content-tabcontent-item-pricebox">
+                                <div class="membership_content-tabcontent-item-pricebox-price">
+                                    <p>8 сплит тренировок</p>
+                                    <p>3600</p>
+                                </div>
+                                <p>Срок действия 30 дней</p>
+                            </div>
+
+                            <div class="membership_content-tabcontent-item-pricebox">
+                                <div class="membership_content-tabcontent-item-pricebox-price">
+                                    <p>12 сплит тренировок</p>
+                                    <p>4800</p>
+                                </div>
+                                <p>Срок действия 60 дней</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="12" class="membership_content-tabcontent">
+                        <div class="membership_content-tabcontent-item">
+                            <div class="membership_content-tabcontent-item-header">
+                                Детские персональные тренировки 8 - 16 лет
+                            </div>
+
+                            <div class="membership_content-tabcontent-item-pricebox">
+                                <div class="membership_content-tabcontent-item-pricebox-price">
+                                    <p>Разовое посещение</p>
+                                    <p>150</p>
+                                </div>
+                            </div>
+
+                            <div class="membership_content-tabcontent-item-pricebox">
+                                <div class="membership_content-tabcontent-item-pricebox-price">
+                                    <p>Разовая тренировка</p>
+                                    <p>300</p>
+                                </div>
+                            </div>
+
+                            <div class="membership_content-tabcontent-item-pricebox">
+                                <div class="membership_content-tabcontent-item-pricebox-price">
+                                    <p>10 тренировок</p>
+                                    <p>3000</p>
+                                </div>
+                                <p>+ посещение</p>
+                            </div>
+
+                        </div>
+
+                        <div class="membership_content-tabcontent-item">
+                            <div class="membership_content-tabcontent-item-header">
+                                Детские персональные тренировки 12 - 18 лет
+                            </div>
+
+                            <div class="membership_content-tabcontent-item-pricebox">
+                                <div class="membership_content-tabcontent-item-pricebox-price">
+                                    <p>Разовая тренировка</p>
+                                    <p>500</p>
+                                </div>
+                                <p>Тренировка в группе 2 - 5 чел.</p>
+                            </div>
+
+                            <div class="membership_content-tabcontent-item-pricebox">
+                                <div class="membership_content-tabcontent-item-pricebox-price">
+                                    <p>8 груповых тренировок</p>
+                                    <p>1600</p>
+                                </div>
+                                <p>Срок действия 30 дней</p>
+                            </div>
+
+                            <div class="membership_content-tabcontent-item-pricebox">
+                                <div class="membership_content-tabcontent-item-pricebox-price">
+                                    <p>12 груповых тренировок</p>
+                                    <p>1800</p>
+                                </div>
+                                <p>Срок действия 30 дней</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="13" class="membership_content-tabcontent">
+                        <div class="membership_content-tabcontent-item">
+                            <div class="membership_content-tabcontent-item-header">
+                                CrossFit Kids
+                            </div>
+
+                            <div class="membership_content-tabcontent-item-pricebox">
+                                <div class="membership_content-tabcontent-item-pricebox-price">
+                                    <p>Разовое занятие</p>
+                                    <p>250</p>
+                                </div>
+                            </div>
+
+                            <div class="membership_content-tabcontent-item-pricebox">
+                                <div class="membership_content-tabcontent-item-pricebox-price">
+                                    <p>8 тренировок</p>
+                                    <p>1400</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="membership_content-tabcontent-item">
+                            <div class="membership_content-tabcontent-item-header">
+                                Ушу
+                            </div>
+
+                            <div class="membership_content-tabcontent-item-pricebox">
+                                <div class="membership_content-tabcontent-item-pricebox-price">
+                                    <p>Разовое занятие</p>
+                                    <p>200</p>
+                                </div>
+                            </div>
+
+                            <div class="membership_content-tabcontent-item-pricebox">
+                                <div class="membership_content-tabcontent-item-pricebox-price">
+                                    <p>12 тренировок</p>
+                                    <p>1400</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="membership_content-tabcontent-item">
+                            <div class="membership_content-tabcontent-item-header">
+                                Тхэквандо
+                            </div>
+
+                            <div class="membership_content-tabcontent-item-pricebox">
+                                <div class="membership_content-tabcontent-item-pricebox-price">
+                                    <p>Разовое занятие</p>
+                                    <p>200</p>
+                                </div>
+                            </div>
+
+                            <div class="membership_content-tabcontent-item-pricebox">
+                                <div class="membership_content-tabcontent-item-pricebox-price">
+                                    <p>12 тренировок</p>
+                                    <p>1800</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="membership_content-tabcontent-item">
+                            <div class="membership_content-tabcontent-item-header">
+                                Baby dance
+                            </div>
+
+                            <div class="membership_content-tabcontent-item-pricebox">
+                                <div class="membership_content-tabcontent-item-pricebox-price">
+                                    <p>Разовое занятие 1 час</p>
+                                    <p>250</p>
+                                </div>
+                            </div>
+
+                            <div class="membership_content-tabcontent-item-pricebox">
+                                <div class="membership_content-tabcontent-item-pricebox-price">
+                                    <p>Абонемент на 8 часов</p>
+                                    <p>1000</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="membership_content-tabcontent-item">
+                            <div class="membership_content-tabcontent-item-header">
+                                Kids dance 12+
+                            </div>
+
+                            <div class="membership_content-tabcontent-item-pricebox">
+                                <div class="membership_content-tabcontent-item-pricebox-price">
+                                    <p>Разовое занятие 1 час</p>
+                                    <p>250</p>
+                                </div>
+                            </div>
+
+                            <div class="membership_content-tabcontent-item-pricebox">
+                                <div class="membership_content-tabcontent-item-pricebox-price">
+                                    <p>Абонемент на 8 часов</p>
+                                    <p>1200</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="membership_content-tabcontent-item">
+                            <div class="membership_content-tabcontent-item-header">
+                                Dance pro / Break dance
+                            </div>
+
+                            <div class="membership_content-tabcontent-item-pricebox">
+                                <div class="membership_content-tabcontent-item-pricebox-price">
+                                    <p>Разовое занятие 1.5 часа</p>
+                                    <p>300</p>
+                                </div>
+                            </div>
+
+                            <div class="membership_content-tabcontent-item-pricebox">
+                                <div class="membership_content-tabcontent-item-pricebox-price">
+                                    <p>Dance pro на 12 часов</p>
+                                    <p>1400</p>
+                                </div>
+                            </div>
+
+                            <div class="membership_content-tabcontent-item-pricebox">
+                                <div class="membership_content-tabcontent-item-pricebox-price">
+                                    <p>Break dance на 16 часов</p>
+                                    <p>1400</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div id="14" class="membership_content-tabcontent">
+                        <div class="membership_content-tabcontent-item">
+                            <div class="membership_content-tabcontent-item-salebox">
+                                <h3>Семейная скидка 1 + 1</h3>
+                                <p>25% на второй абонемент</p>
+                            </div>
+                        </div>
+
+                        <div class="membership_content-tabcontent-item">
+                            <div class="membership_content-tabcontent-item-salebox">
+                                <h3>Скидка именинника</h3>
+                                <p>-15% на любой абонемент</p>
+                            </div>
+                        </div>
+
+                        <div class="membership_content-tabcontent-item">
+                            <div class="membership_content-tabcontent-item-salebox">
+                                <h3>VIP клиент</h3>
+                                <p>-10% на любой абонемент</p>
+                            </div>
+                        </div>
+
+                        <div class="membership_content-tabcontent-item">
+                            <div class="membership_content-tabcontent-item-salebox">
+                                <h3>GOLD клиент
+                                </h3>
+                                <p>-20% на любой абонемент</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+           </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer">
+            <div class="container">
+                <div class="footer_content">
+                    <div class="footer_content_info">
+                        <img class="footer_content_info-logo" src="./assets/img/logo.png" alt="">
+                        <a href="tel:+79494139492" class="footer_content_info-num">+7 (949) 413-94-92</a>
+                        <div class="footer_content_info-social">
+                            <img src="./assets/img/social/tg.png" alt="">
+                            <img src="./assets/img/social/gm.png" alt="">
+                            <img src="./assets/img/social/inst.png" alt="">
+                        </div>
+                    </div>
+                    <div class="footer_content_nav">
+                        <a href="./direction.html">Направления</a>
+                        <a href="./membership.html">Абонемент</a>
+                        <a href="./contact.html">Контакты</a>
+                        <a href="./calc.html">Индивидуальная<br>программа</a>
+                    </div>
+                    <img src="./assets/img/main-page/gant.png" alt="">
+                </div>
+            </div>            
+        </div>
+    </footer>
+
+    <script src="./scripts/membership.js"></script>   
+
+</body>
+</html>
